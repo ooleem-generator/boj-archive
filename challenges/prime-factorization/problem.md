@@ -6,14 +6,15 @@ tags:
   - 수학
   - 정수론
 samples:
-  - input: "12"
+  - input: "36"
+    output: |-
+      2 2
+      3 2
+  - input: "60"
     output: |-
       2 2
       3 1
-  - input: "100"
-    output: |-
-      2 2
-      5 2
+      5 1
 ---
 
 자연수 N이 주어져요. N을 소인수분해해보세요.

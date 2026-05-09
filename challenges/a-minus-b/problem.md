@@ -6,10 +6,10 @@ tags:
   - 수학
   - 구현
 samples:
-  - input: "3 2"
-    output: "1"
-  - input: "10 15"
-    output: "-5"
+  - input: "7 4"
+    output: "3"
+  - input: "-3 8"
+    output: "-11"
 ---
 
 두 정수가 주어져요. 첫 번째 수에서 두 번째 수를 뺀 값을 출력해보세요.
