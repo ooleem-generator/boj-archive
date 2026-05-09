@@ -19,7 +19,8 @@
     "db:upload-problem-images": "tsx scripts/upload-problem-images.ts",
     "judge:upload-clang": "tsx scripts/upload-clang-assets.ts",
     "challenges:validate": "tsx scripts/validate.ts",
-    "challenges:sync": "tsx scripts/sync-challenges.ts"
+    "challenges:sync": "tsx scripts/sync-challenges.ts",
+    "challenges:reset": "tsx scripts/reset-challenges.ts"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.2",

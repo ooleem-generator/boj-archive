@@ -8,7 +8,7 @@
 - **프레임워크**: Next.js 15 App Router, TypeScript
 - **DB**: Supabase (PostgreSQL) + Drizzle ORM
 - **인증**: NextAuth v5 (GitHub OAuth)
-- **채점**: 브라우저 내 WebAssembly (서버에 코드 미전송)
+- **채점**: 브라우저 내 WebAssembly (코드 실행은 브라우저, 코드 자체는 서버에 전송됨 — AI 학습 모드 지원 예정)
 - **공지사항**: Notion API → `scripts/fetch-notices.ts` → 빌드 시 마크다운 저장
 
 ---
@@ -146,7 +146,7 @@ GET  /api/me/challenges                      내 전체 풀이 기록
 
 ## 채점 아키텍처
 
-코드 실행은 전부 브라우저에서 일어난다. 서버는 hidden testcase 정답 비교만 담당.
+코드 실행은 전부 브라우저에서 일어난다. 코드 자체는 서버에 전송되며, 서버는 hidden testcase 정답 비교를 담당한다 (AI 학습 모드 지원 예정).
 
 ```
 사용자 코드 제출

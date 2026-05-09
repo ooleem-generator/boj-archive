@@ -3,6 +3,7 @@ export interface TagInfo {
 }
 
 export const ALL_TAGS: readonly TagInfo[] = [
+  { value: '튜토리얼' },
   { value: '수학' },
   { value: '구현' },
   { value: '다이나믹 프로그래밍' },
