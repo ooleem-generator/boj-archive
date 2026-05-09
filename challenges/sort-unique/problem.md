@@ -1,7 +1,7 @@
 ---
 title: "중복 없이 정렬"
-time_limit: "1s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "512MB"
 tags:
   - 정렬
 samples:

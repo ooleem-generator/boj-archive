@@ -1,7 +1,7 @@
 ---
 title: "소인수분해"
-time_limit: "1s"
-memory_limit: "256MB"
+time_limit: "500ms"
+memory_limit: "128MB"
 tags:
   - 수학
   - 정수론

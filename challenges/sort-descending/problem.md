@@ -1,7 +1,7 @@
 ---
 title: "내림차순 정렬"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "512MB"
 tags:
   - 정렬
 samples:

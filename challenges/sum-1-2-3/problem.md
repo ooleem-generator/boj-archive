@@ -1,7 +1,7 @@
 ---
 title: "1, 2, 3 더하기"
-time_limit: "1s"
-memory_limit: "512MB"
+time_limit: "500ms"
+memory_limit: "256MB"
 tags:
   - 다이나믹 프로그래밍
   - 수학

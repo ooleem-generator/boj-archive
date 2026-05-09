@@ -1,7 +1,7 @@
 ---
 title: "1로 줄이기"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "128MB"
 tags:
   - 다이나믹 프로그래밍
 samples:

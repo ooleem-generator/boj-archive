@@ -1,7 +1,7 @@
 ---
 title: "트리의 부모"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "512MB"
 tags:
   - 트리
   - 그래프 탐색

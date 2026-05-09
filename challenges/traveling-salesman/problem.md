@@ -1,7 +1,7 @@
 ---
 title: "외판원 순회"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "128MB"
 tags:
   - 브루트포스
   - 백트래킹
