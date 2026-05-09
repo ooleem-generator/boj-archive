@@ -1,0 +1,1 @@
+ALTER TABLE "challenges" ADD COLUMN "display_order" integer DEFAULT 9999 NOT NULL;

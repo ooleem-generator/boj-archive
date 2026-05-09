@@ -1,6 +1,6 @@
 {
-  "id": "3aaf8808-1fe8-4e6d-ac9f-6c3bd264fbc2",
-  "prevId": "cec7a112-d781-4bc1-8cd4-1e096ee9af8c",
+  "id": "dea72acd-a780-4419-8725-e88271335665",
+  "prevId": "3aaf8808-1fe8-4e6d-ac9f-6c3bd264fbc2",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
@@ -457,13 +457,6 @@
           "type": "text",
           "primaryKey": false,
           "notNull": false
-        },
-        "display_order": {
-          "name": "display_order",
-          "type": "integer",
-          "primaryKey": false,
-          "notNull": true,
-          "default": 9999
         },
         "created_at": {
           "name": "created_at",

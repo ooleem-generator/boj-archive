@@ -143,7 +143,7 @@ export const challengeSubmissions = pgTable(
       .references(() => users.id, { onDelete: 'cascade' }),
     challengeId: integer('challenge_id')
       .notNull()
-      .references(() => challenges.id, { onDelete: 'cascade' }),
+      .references(() => challenges.id),
     language: text('language').$type<SubmissionLanguage>().notNull(),
     verdict: text('verdict').$type<SubmissionVerdict>().notNull(),
     submittedAt: timestamp('submitted_at', { mode: 'date' })
@@ -162,7 +162,7 @@ export const challengeContributors = pgTable(
     id: serial('id').primaryKey(),
     challengeId: integer('challenge_id')
       .notNull()
-      .references(() => challenges.id, { onDelete: 'cascade' }),
+      .references(() => challenges.id),
     githubLogin: text('github_login').notNull(),
     contributedAt: timestamp('contributed_at', { mode: 'date' }).notNull().defaultNow(),
   },

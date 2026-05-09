@@ -40,12 +40,20 @@ interface ProblemFrontmatter {
   samples: { input: string; output: string }[]
 }
 
-
 async function main() {
-  const slugs = readdirSync(CHALLENGES_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
-    .map((d) => d.name)
-    .sort()
+  const argSlugs = process.argv.slice(2)
+  const slugs = argSlugs.length > 0
+    ? argSlugs
+    : readdirSync(CHALLENGES_DIR, { withFileTypes: true })
+        .filter((d) => d.isDirectory())
+        .map((d) => d.name)
+        .sort((a, b) => {
+          const aT = a.startsWith('tutorial-')
+          const bT = b.startsWith('tutorial-')
+          if (aT && !bT) return -1
+          if (!aT && bT) return 1
+          return a.localeCompare(b)
+        })
 
   let synced = 0
   let skipped = 0
