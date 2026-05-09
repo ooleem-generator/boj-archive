@@ -1,18 +1,18 @@
 ---
 title: "중복 없이 정렬"
-time_limit: "1s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "512MB"
 tags:
   - 정렬
 samples:
   - input: |-
-      5
-      1 3 1 2 3
-    output: "1 2 3"
+      6
+      4 2 4 6 2 8
+    output: "2 4 6 8"
   - input: |-
-      4
-      5 5 5 5
-    output: "5"
+      3
+      10 20 10
+    output: "10 20"
 ---
 
 N개의 정수가 주어져요. 중복을 제거하고 오름차순으로 정렬하여 출력해보세요.

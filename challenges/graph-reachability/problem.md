@@ -1,20 +1,22 @@
 ---
 title: "경로 존재 여부"
-time_limit: "1s"
-memory_limit: "256MB"
+time_limit: "500ms"
+memory_limit: "128MB"
 tags:
   - 그래프
   - 최단 경로
 samples:
   - input: |-
-      3
-      0 1 0
-      0 0 1
-      1 0 0
+      4
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+      0 0 0 0
     output: |-
-      1 1 1
-      1 1 1
-      1 1 1
+      0 1 1 1
+      0 0 1 1
+      0 0 0 1
+      0 0 0 0
   - input: |-
       3
       0 1 0

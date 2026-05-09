@@ -1,17 +1,17 @@
 ---
 title: "이전 순열"
-time_limit: "1s"
-memory_limit: "256MB"
+time_limit: "500ms"
+memory_limit: "128MB"
 tags:
   - 구현
 samples:
   - input: |-
-      3
-      2 1 3
-    output: "1 3 2"
+      4
+      3 2 4 1
+    output: "3 2 1 4"
   - input: |-
-      3
-      1 2 3
+      4
+      1 2 3 4
     output: "-1"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "집합의 차"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "512MB"
 tags:
   - 자료 구조
   - 정렬

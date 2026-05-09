@@ -1,15 +1,15 @@
 ---
 title: "합분해"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "128MB"
 tags:
   - 다이나믹 프로그래밍
   - 수학
 samples:
-  - input: "20 2"
-    output: "21"
-  - input: "6 4"
-    output: "84"
+  - input: "3 2"
+    output: "4"
+  - input: "4 3"
+    output: "15"
 ---
 
 0부터 N까지의 정수 중 K개를 골라 더했을 때 합이 N이 되는 경우의 수를 구해보세요.

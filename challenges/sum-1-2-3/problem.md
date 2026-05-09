@@ -1,20 +1,20 @@
 ---
 title: "1, 2, 3 더하기"
-time_limit: "1s"
-memory_limit: "512MB"
+time_limit: "500ms"
+memory_limit: "256MB"
 tags:
   - 다이나믹 프로그래밍
   - 수학
 samples:
   - input: |-
       3
-      4
-      7
-      10
-    output: |-
-      4
+      1
+      5
       8
-      14
+    output: |-
+      1
+      5
+      10
 ---
 
 정수 N을 1, 2, 3의 합으로 나타내는 방법의 수를 구해보세요. 순서가 다른 경우는 같은 방법으로 봐요.

@@ -1,18 +1,17 @@
 ---
 title: "외판원 순회"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "128MB"
 tags:
   - 브루트포스
   - 백트래킹
 samples:
   - input: |-
-      4
-      0 10 15 20
-      5 0 9 10
-      6 13 0 12
-      8 8 9 0
-    output: "35"
+      3
+      0 5 8
+      3 0 6
+      7 4 0
+    output: "15"
 ---
 
 N개의 도시가 있어요. 한 도시에서 출발해 모든 도시를 정확히 한 번씩 방문한 뒤 출발 도시로 돌아오려고 해요.

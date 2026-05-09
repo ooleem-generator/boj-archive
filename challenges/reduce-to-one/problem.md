@@ -1,14 +1,14 @@
 ---
 title: "1로 줄이기"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "128MB"
 tags:
   - 다이나믹 프로그래밍
 samples:
-  - input: "2"
-    output: "1"
-  - input: "10"
-    output: "3"
+  - input: "6"
+    output: "2"
+  - input: "15"
+    output: "4"
 ---
 
 정수 N이 주어져요. 다음 세 가지 연산을 적절히 사용해서 N을 1로 만들려고 해요.

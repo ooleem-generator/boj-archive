@@ -1,26 +1,22 @@
 ---
 title: "트리의 부모"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "512MB"
 tags:
   - 트리
   - 그래프 탐색
 samples:
   - input: |-
-      7
-      1 6
-      6 3
-      3 5
-      4 1
+      5
+      1 2
+      1 3
       2 4
-      4 7
+      3 5
     output: |-
-      4
-      6
       1
+      1
+      2
       3
-      1
-      4
 ---
 
 N개의 노드로 이루어진 트리가 주어져요. 루트 노드는 1번이에요.

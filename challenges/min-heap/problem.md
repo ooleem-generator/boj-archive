@@ -1,28 +1,24 @@
 ---
 title: "최소 힙"
-time_limit: "2s"
-memory_limit: "256MB"
+time_limit: "3s"
+memory_limit: "128MB"
 tags:
   - 자료 구조
   - 우선순위 큐
 samples:
   - input: |-
-      9
+      7
+      5
+      3
       0
-      12345678
+      8
       1
-      2
       0
       0
-      0
-      0
-      32
     output: |-
-      0
+      3
       1
-      2
-      12345678
-      0
+      5
 ---
 
 N개의 연산이 주어져요.

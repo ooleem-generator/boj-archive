@@ -1,13 +1,13 @@
 ---
 title: "두 수의 합"
-time_limit: "1s"
-memory_limit: "256MB"
+time_limit: "500ms"
+memory_limit: "128MB"
 tags:
   - 수학
   - 구현
 samples:
-  - input: "1 2"
-    output: "3"
+  - input: "3 7"
+    output: "10"
   - input: "-5 5"
     output: "0"
 ---
